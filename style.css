@@ -1,6 +1,7 @@
 body{
     font-family: math;
-    background-image: url(img/bg2.jpg);
+    /*background-image: url(img/bg2.jpg);*/
+    background-color: #e7f1f3;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
   
   .nav {
     display: flex;
-    background-color: #333;
+    background-color: #002b69;
   }
   nav ul li {
     display: inline-block;
@@ -39,7 +40,8 @@ body{
   }
 
   .navLink:hover:not(.active) {
-    background-color: #111;
+    background-color: #ffffff;
+    color: black;
   }
 
   .my_a{
@@ -57,6 +59,6 @@ body{
   }
 
   footer{
-    background-color: #333;
+    background-color: #002b69;
     color: white;
   }
